@@ -1,19 +1,23 @@
 {
-  "name": "nurota-docs",
-  "version": "1.0.0",
-  "description": "--- description: >-   Mech Master is a strategic turn-based RPG game where players are open to build   their own territory with future technologies and protect their homeland. ---",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hungng14/nurota-docs.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hungng14/nurota-docs/issues"
-  },
-  "homepage": "https://github.com/hungng14/nurota-docs#readme"
+    "name": "nurota-docs",
+    "version": "1.0.0",
+    "description": "--- description: >-   Mech Master is a strategic turn-based RPG game where players are open to build   their own territory with future technologies and protect their homeland. ---",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gitbook build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hungng14/nurota-docs.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/hungng14/nurota-docs/issues"
+    },
+    "homepage": "https://github.com/hungng14/nurota-docs#readme",
+    "devDependencies": {
+        "gitbook-cli": "^2.3.2"
+    }
 }
